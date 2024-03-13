@@ -1,0 +1,38 @@
+@import url("reset.css");
+*{
+    font-weight: bold;
+}
+h1{
+    color:red;
+}
+.first-subtitle{
+    color: blue;
+}
+#some{
+    color: darkorange;
+}
+[class*= "ood"]{
+color: chocolate;
+}
+div.block{
+color: rgb(255, 0, 85);
+}
+.header-video{
+    color: chartreuse;
+}
+.food-list ul{
+    color: goldenrod;
+}
+.dress,
+ol{
+    color: plum;
+}
+.text>p{
+color: rgb(46, 0, 211);
+}
+.second-subtitle+p{
+    color: brown;
+}
+.first-subtitle~p{
+    color: darkolivegreen;
+}

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="364c70c2-7f85-48cc-9e48-a9d722aeba29" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../feauture-file.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../first-subfolder/second-file.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../first-subfolder/sixth-file.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../first-subfolder/third-file.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sekond-subfolder/fifth-file.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sekond-subfolder/fourth-file.txt" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 7
+}]]></component>
+  <component name="ProjectId" id="2deNW3vS1WX7HgD5auL44LDr71S" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/Users/svetlanadanilejko/Desktop/lesson_ Evhen/lesson_2 ",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="364c70c2-7f85-48cc-9e48-a9d722aeba29" name="Changes" comment="" />
+      <created>1710364611363</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1710364611363</updated>
+      <workItem from="1710364612379" duration="13000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
