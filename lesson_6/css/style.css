@@ -1,4 +1,3 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
@@ -6,143 +5,159 @@
 @import url("fonts.css");
 @import url("reset.css");
 
-body{
-    font-family:"Roboto" sans-serif;
+body {
+    font-family: "Roboto" sans-serif;
 }
-.header{
-    margin:10px 20px;
-    max-width:100%;
-    max-height:100%;
-    text-align:center;
+
+.header {
+    margin: 10px 20px;
+    max-width: 100%;
+    max-height: 100%;
+    text-align: center;
     margin: 0 auto;
     background-image: url(../img/fon.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
 }
-.header
-p{
-    font-size:35px;
-    font-weight:600;
-    color:darkred;
+
+.header p {
+    font-size: 35px;
+    font-weight: 600;
+    color: darkred;
 }
-.block_1{
-    background-color:aqua;
-    padding:15px 15px;
+
+.block_1 {
+    background-color: aqua;
+    padding: 15px 15px;
     margin: 15px 10px;
-    max-width:300px;
-    border:10px solid yellowgreen;
+    max-width: 300px;
+    border: 10px solid yellowgreen;
     display: inline-block;
 }
-.block_1:hover{
-    background-color:rgb(213, 224, 213);
-    border:15px double rgb(212, 143, 14);
+
+.block_1:hover {
+    background-color: rgb(213, 224, 213);
+    border: 15px double rgb(212, 143, 14);
 }
-.block_2{
+
+.block_2 {
     background-color: rgb(137, 119, 16);
-    padding:20px 30px;
-    margin:10px 25px;
+    padding: 20px 30px;
+    margin: 10px 25px;
     max-width: 300px;
     border-top: 20px dashed green;
-    border-right:10px solid salmon;
-    border-bottom:15px dotted brown;
-    border-left:10px double rgb(99, 73, 6);
+    border-right: 10px solid salmon;
+    border-bottom: 15px dotted brown;
+    border-left: 10px double rgb(99, 73, 6);
     display: inline-block;
 }
-.block_3{
+
+.block_3 {
     background-color: rgb(231, 212, 174);
-    padding:20px 30px;
+    padding: 20px 30px;
     max-width: 300px;
-    border-top-width:20px;
-    border-top-style:groove;
+    border-top-width: 20px;
+    border-top-style: groove;
     border-top-color: cadetblue;
-    border-bottom-width:20px;
-    border-bottom-style:groove;
+    border-bottom-width: 20px;
+    border-bottom-style: groove;
     border-bottom-color: cadetblue;
     opacity: 0.7;
     display: inline-block;
     box-shadow: 5px 10px 10px 5px;
 }
-.block_4{
-    margin:25px 30px;
-    padding:10px;
-    max-width:300px;
-    outline:15px solid darkred;
-    outline-offset:10px;
+
+.block_4 {
+    margin: 25px 30px;
+    padding: 10px;
+    max-width: 300px;
+    outline: 15px solid darkred;
+    outline-offset: 10px;
     display: inline-block;
     border-radius: 30% 70% 51% 49% / 27% 46% 54% 73%;
     background-image: linear-gradient(90deg, #f0f9f9 30%, #FC00FF 50%);
-    overflow: hidden;  
+    overflow: hidden;
 }
-.block_5{
+
+.block_5 {
     background-color: burlywood;
-    margin:25px 30px;
-    padding:10px;
-    max-width:300px;
+    margin: 25px 30px;
+    padding: 10px;
+    max-width: 300px;
     display: inline-block;
-    border-radius:20px;
-    box-shadow:15px 20px 10px 5px rgba(217, 29, 126, 0.6),
-    inset 10px 10px 10px 5px rgba(191, 193, 215, 0.6), 
-    10px 15px 20px 30px rgba(100, 45, 224, 0.8);
+    border-radius: 20px;
+    box-shadow: 15px 20px 10px 5px rgba(217, 29, 126, 0.6),
+        inset 10px 10px 10px 5px rgba(191, 193, 215, 0.6),
+        10px 15px 20px 30px rgba(100, 45, 224, 0.8);
 }
-.inline{
+
+.inline {
     background-color: indianred;
-    line-height:1.5;
-    border:3px dotted white;
+    line-height: 1.5;
+    border: 3px dotted white;
 }
-.inline_span{
-outline: 20px double darkblue;
-opacity: 0.4;
+
+.inline_span {
+    outline: 20px double darkblue;
+    opacity: 0.4;
 }
-.header
-img{
-     padding: 10px 20px;
-     margin: 50px 30px 30px;
-     max-width:300px;
-     border:15px solid darkgreen;
-     border-radius: 55% 45% 21% 79% / 81% 49% 51% 19% ;
-     overflow: hidden;
+
+.header img {
+    padding: 10px 20px;
+    margin: 50px 30px 30px;
+    max-width: 300px;
+    border: 15px solid darkgreen;
+    border-radius: 55% 45% 21% 79% / 81% 49% 51% 19%;
+    overflow: hidden;
 }
-.span{
+
+.span {
     margin: 30px auto;
 }
-.link{
-    font-size:36px;
+
+.link {
+    font-size: 36px;
     color: blueviolet;
-    padding-left:30px;
+    padding-left: 30px;
 }
-.link:focus{
+
+.link:focus {
     margin: 30px auto;
-    padding:10px;
-outline: 10px dashed rgb(123, 214, 123);
+    padding: 10px;
+    outline: 10px dashed rgb(123, 214, 123);
 }
-.link_two{
+
+.link_two {
     background-color: rgb(57, 57, 209);
-    color:antiquewhite;
+    color: antiquewhite;
     padding: 30px;
     max-width: 300px;
     border-radius: 30px;
-    text-transform:uppercase;
+    text-transform: uppercase;
     letter-spacing: 6px;
     box-shadow: 8px 8px 5px black;
 }
-.link_two:hover{
+
+.link_two:hover {
     margin-top: 5px;
     box-shadow: 0 5px 5px rgb(77, 68, 68);
 }
-.back{
-    max-width:600px;
+
+.back {
+    max-width: 600px;
     max-height: 300px;
     margin: 30px;
     padding: 20px;
     border-radius: 30px;
     background-image: url("../img/nature.jpg");
-    overflow:auto;
+    overflow: auto;
     background-size: cover;
-    background-attachment:scroll;
+    background-attachment: scroll;
     display: inline-block;
 }
-.back_1{
-    max-width:600px;
+
+.back_1 {
+    max-width: 600px;
     margin: 30px;
     padding: 20px;
     border-radius: 30px;
@@ -152,8 +167,9 @@ outline: 10px dashed rgb(123, 214, 123);
     background-repeat: no-repeat;
     display: inline-block;
 }
-.back_2{
-    max-width:600px;
+
+.back_2 {
+    max-width: 600px;
     border: 5px solid green;
     margin: 30px;
     padding: 20px;
@@ -163,247 +179,275 @@ outline: 10px dashed rgb(123, 214, 123);
     background-repeat: repeat-x;
     display: inline-block;
 }
-.back_3{
-    max-width:200px;
+
+.back_3 {
+    max-width: 200px;
     height: 200px;
     margin: 30px;
     padding: 20px;
     background-image: linear-gradient(90deg, #00DBDE 0%, #FC00FF 100%);
     border-radius: 50%;
-    overflow:hidden;
+    overflow: hidden;
     display: inline-block;
 }
-.back_4{
-    max-width:600px;
+
+.back_4 {
+    max-width: 600px;
     margin: 30px;
     padding: 20px;
-    background-color:aqua;
+    background-color: aqua;
     background-image: url(../img/dribbble.png);
     background-repeat: no-repeat;
     background-position: 2% 90%;
     display: inline-block;
 }
-.text{
+
+.text {
     display: inline-block;
-    vertical-align:bottom;
+    vertical-align: bottom;
 }
-.figma{
-    color:#2b2929;
-    max-width:1920px;
-    /* min-height: 1544px; */
+
+.figma {
+    color: #2b2929;
+    max-width: 1920px;
     margin: 0 auto;
     overflow: hidden;
     background: rgb(248, 248, 248);
-    padding:310px 425px;
+    padding: 310px 425px;
 }
-img{
-    max-width:100%;
+
+img {
+    max-width: 100%;
 }
-.decoration-subtitle{
-    padding-bottom:40px;
+
+.decoration-subtitle {
+    padding-bottom: 40px;
 }
-.decoration-subtitle{
-    font-family:'Proxima Nova';
+
+.decoration-subtitle {
+    font-family: 'Proxima Nova';
     font-weight: 600;
     font-size: 40px;
-    line-height: 120%; 
+    line-height: 120%;
 }
-.site{
-    padding-top:20px;
+
+.site {
+    padding-top: 20px;
 }
-.types{
-    padding-left:47px;
+
+.types {
+    padding-left: 47px;
 }
-.divan_item{
-background: url("../img/Vector.png") 0 0 / 26.67px no-repeat;
-margin-bottom:20px ;
-padding-left:47px;
-font-family:'Proxima Nova';
+
+.divan_item {
+    background: url("../img/Vector.png") 0 0 / 26.67px no-repeat;
+    margin-bottom: 20px;
+    padding-left: 47px;
+    font-family: 'Proxima Nova';
 }
-.divan_item:first-child{
-margin-top: 30px;
+
+.divan_item:first-child {
+    margin-top: 30px;
 }
-.divan_item:last-child{
+
+.divan_item:last-child {
     margin-bottom: 40px;
-    }
+}
+
 .decorating,
 .types,
-.choice
-p{
-    font-family:'Proxima Nova';
+.choice p {
+    font-family: 'Proxima Nova';
     font-weight: 400;
     font-size: 16px;
-    line-height: 187%; 
+    line-height: 187%;
 }
-.site
-p{
-    font-family:'Proxima Nova';
+
+.site p {
+    font-family: 'Proxima Nova';
     font-weight: 600;
     font-size: 20px;
     line-height: 140%;
 }
-.container{
+
+.container {
     background-image: url(../img/fon_new.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     max-width: 1440px;
-    min-height:530px;
+    min-height: 530px;
     margin: 0 auto;
     padding-top: 105px;
     padding-left: 80px;
     padding-bottom: 177px;
 }
-.container_1{
-max-width: 600px;
-min-height: 96px;
-padding-bottom:29px;
-color: rgb(255, 255, 255);
-font-family: "Quicksand";
-font-size: 40px;
-font-weight: 700;
-line-height: 48px;
-margin: 0%;
-text-align: center;
-display: inline-block;
+
+.container_1 {
+    max-width: 600px;
+    min-height: 96px;
+    padding-bottom: 29px;
+    color: rgb(255, 255, 255);
+    font-family: "Quicksand";
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    margin: 0%;
+    text-align: center;
+    display: inline-block;
 }
-.container_2{
-    max-width:620px;
+
+.container_2 {
+    max-width: 620px;
     min-height: 128px;
     color: rgb(255, 255, 255);
-font-family: "Quicksand";
-font-size: 20px;
-font-weight: 500;
-line-height: 32px;
-padding-left:40px;
+    font-family: "Quicksand";
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
+    padding-left: 40px;
 }
-.button{
+
+.button {
     max-width: 233px;
     min-height: 48px;
-    border:8px solid rgb(255, 255, 255);
+    border: 8px solid rgb(255, 255, 255);
     border-radius: 8px;
-background: rgb(255, 255, 255);
-margin-top: 24px;
-margin-left: 40px;
-padding:11.5px 20px 11.5px 20px; 
+    background: rgb(255, 255, 255);
+    margin-top: 24px;
+    margin-left: 40px;
+    padding: 11.5px 20px 11.5px 20px;
 }
-.container_img{
+
+.container_img {
     float: right;
     margin-top: -80px;
     margin-right: 50px;
 }
-.circle{
+
+.circle {
     margin: -475px 840px 20px 560px;
     float: left;
 }
-.page_box{
+
+.page_box {
     max-width: 1920px;
+    width: 100%;
+    min-width:847px;
     margin: 0 auto;
-    background-color:  rgba(30, 40, 50, 0.05);
+    background-color: rgba(30, 40, 50, 0.05);
 }
-.pages_text{
+
+.pages_text {
     display: inline-block;
     max-width: 1226px;
+    width: 100%;
     margin-right: 300px;
     margin-left: 394px;
     margin-top: 225px;
     vertical-align: middle;
 }
-.page-title{
-color:rgb(0, 0, 0);
-font-family:"Roboto";
-font-size:74px;
-font-weight:300px;
-line-height:55px ;
-padding-bottom: 52px;
-}
-.page__longtext{
+
+.page-title {
     color: rgb(0, 0, 0);
-    font-family:"Roboto";
-    font-size:30px;
-font-weight:400px;
-line-height:55px;
-text-transform: capitalize;
-max-width: 682px;
+    font-family: "Roboto";
+    font-size: 74px;
+    font-weight: 300px;
+    line-height: 55px;
+    padding-bottom: 52px;
 }
 
-.page_button{
-    max-width:223px;
-    background-color: rgb(30, 40, 50);
-    border:1px solid  rgb(30, 40, 50);
-    padding:19px 26px 19px 54px;
-    margin-top:66px ;
+.page__longtext {
+    color: rgb(0, 0, 0);
+    font-family: "Roboto";
+    font-size: 30px;
+    font-weight: 400px;
+    line-height: 55px;
+    text-transform: capitalize;
+    max-width: 682px;
 }
-.pagebutton_text{
-    color:rgb(255, 255, 255);
+
+.page_button {
+    max-width: 223px;
+    background-color: rgb(30, 40, 50);
+    border: 1px solid rgb(30, 40, 50);
+    padding: 19px 26px 19px 54px;
+    margin-top: 66px;
+}
+
+.pagebutton_text {
+    color: rgb(255, 255, 255);
     font-family: "Roboto";
     font-size: 29px;
     font-weight: 400;
     line-height: 34px;
     text-align: left;
-    text-transform: capitalize;   
-}
-.page_img{
-    max-width:442px;
-    width:100%;
-    height:542px;
-    background-image: url(../img/Rectangle\ 124\ \(3\).png);
-    background-repeat: no-repeat;
-    display: inline-block; 
-    vertical-align: middle;
-    margin-top:-440px;
-    margin-left: 784px;
-    margin-bottom:60px;   
-}
-.images
-img
-{   
-    margin-left: -14px;   
-}
-.page__second-img
-{
-    max-width:426px;
-    width:100%;
-    height: 542px;  
-    padding-right:20px;
-    display: inline-block; 
-    vertical-align: middle;  
-}
-.page__second-img{
-    margin-left: -10px;
-} 
-.page__third-img{
-    max-width:195px;
-    width:100%;
-    height:251.91px;  
-    display: inline-block; 
-    vertical-align: middle;
-    margin-top: -365px;
-    margin-left:542px;
-}
-.page__fourth-img
-{
-    width:132.34px; 
-    width:100%;
-   height:66.61px;   
-   display: inline-block; 
-   vertical-align: middle;
-    margin-left:-1910px;
-    margin-top:-208.52px;
-}
-.footer{
-    margin-top: 30px;
-}
-.footer_item{
-    width:100%;
-   height:100.61px; 
-   display: inline-block; 
-   vertical-align: middle;
-   background-image: linear-gradient(90deg, #f0f9f9 30%, #326d5c 50%);
-   margin: 0 auto;
+    text-transform: capitalize;
 }
 
-.footer_item
-p{
+.page_img {
+    max-width: 442px;
+    width: 100%;
+    height: 542px;
+    background-image: url(../img/Rectangle_124.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: -440px;
+    margin-left: 784px;
+    margin-bottom: 60px;
+}
+
+.images img {
+    margin-left: -14px;
+}
+
+.page__second-img {
+    max-width: 426px;
+    width: 100%;
+    height: 542px;
+    padding-right: 20px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.page__second-img {
+    margin-left: -10px;
+}
+
+.page__third-img {
+    max-width: 195px;
+    width: 100%;
+    height: 251.91px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: -365px;
+    margin-left: 542px;
+}
+
+.page__fourth-img {
+    width: 132.34px;
+    width: 100%;
+    height: 66.61px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: -1910px;
+    margin-top: -208.52px;
+}
+
+.footer {
+    margin-top: 30px;
+}
+
+.footer_item {
+    width: 100%;
+    height: 100.61px;
+    display: inline-block;
+    vertical-align: middle;
+    background-image: linear-gradient(90deg, #f0f9f9 30%, #326d5c 50%);
+    margin: 0 auto;
+}
+
+.footer_item p {
     font-family: "Roboto";
     font-size: 75px;
     text-align: center;
