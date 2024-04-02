@@ -1,0 +1,192 @@
+
+@import url("fonts.css");
+@import url("reset.css");
+
+body{
+    font-family:"Roboto",sans-serif;
+}
+.header{
+    background-color: aquamarine;
+    margin: 10px 20px;
+    max-width: 100%;
+    text-align: center;
+}
+.header
+p{
+    font-size:35px;
+    font-weight:600;
+    color:darkred;
+}
+.block_1{
+    background-color: brown;
+    padding:50px 15px 0px;
+    margin: 15px 10px;
+    overflow: scroll;
+    max-width: 600px;
+    max-height: 300px;
+    display: inline-block;
+    vertical-align: top;
+}
+.block_2{
+    background-color: gold;
+    padding:20px 30px;
+    margin:10px 25px;
+    width: 75%;
+}
+.block_3{
+    background-color: floralwhite;
+    padding:20px 30px 25px;
+    margin: 10px -20px 20px;
+}
+.block_4{
+    background-color: cadetblue;
+    padding:10px 40px 30px 16px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+span{
+    background-color: indianred;
+    display: inline-block;
+    padding-left: 30px;
+    padding-right: 40px;
+    margin-bottom: 5px;
+}
+img{
+     padding: 10px 40px;
+}
+.text{
+    display: inline-block;
+    vertical-align:bottom;
+}
+.figma{
+    color:#2b2929;
+    max-width:1920px;
+    min-height: 1544px;
+    margin: 0 auto;
+    overflow: hidden;
+    background: rgb(248, 248, 248);
+    padding:310px 425px;
+}
+img{
+    max-width:100%;
+}
+.decoration-subtitle{
+    padding-bottom:40px;
+}
+.decoration-subtitle,
+.material-subtitle{
+    font-family:'Proxima Nova';
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 120%; 
+}
+.site{
+    padding-bottom:30px;
+}
+.types{
+    padding-left:47px;
+}
+.types
+p{
+padding-bottom: 20px;
+}
+.decorating,
+.types,
+.choice,
+.material
+p{
+    font-family:'Proxima Nova';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 187%; 
+}
+.site
+p{
+    font-family:'Proxima Nova';
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 140%;
+}
+.material-subtitle{
+text-align: center;
+}
+
+.content{
+    max-width: 1920px;
+    padding-left:315px;
+    padding-right: 315px;
+    margin: 0 auto;
+    background-color: rgb(248, 248, 248); 
+    text-align: center;
+    margin-bottom: 70px;
+    margin-top: 70px;
+}
+.items{
+    display: inline-block;
+    margin: 0 auto;
+    width: 300px;
+    text-align: center;
+    vertical-align: top;
+    padding-right: 30px;
+}
+.item_title{
+    font-family:"Proxima Nova";
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 48px;
+    text-align: center;
+    color: rgb(43, 41, 41);  
+    padding-bottom: 40px;
+    padding-top: 70px;
+}
+
+.item_content+p{
+    padding-top:20px;
+    padding-bottom:20px;
+}
+.follow{
+    padding: 100px 300px;
+    max-width: 1920px;
+    margin: 0 auto;
+    background-color: rgba(30, 40, 50, 0.05);
+    text-align: center;
+}
+.title{
+    margin-bottom: 60px; 
+    text-align: center; 
+    color: #000;
+    font-size: 50px;
+    font-family: "Roboto"; 
+    text-transform: capitalize;
+}
+.card{
+    text-align: center;
+    display: inline-block;
+    padding-right: 12px;
+    padding-bottom: 10px;
+}
+.footer_main{
+    max-width: 600px;
+    margin:0 auto;
+    overflow: hidden;
+}
+.footer {
+    color: orchid;  
+    margin:0 -5px;
+    margin-top: 40px;
+    font-size:0;    
+   }
+   .footer_content{
+    width: 33.333%;
+    display: inline-block;
+    margin-bottom: 15px;
+    padding-left: 10px;
+    padding-right: 5px;
+   }
+   .footer_item{
+padding: 30px;
+background-color: aqua;
+text-align: center;
+font-size: 30px;
+   }
+  
