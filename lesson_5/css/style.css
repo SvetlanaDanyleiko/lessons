@@ -74,19 +74,27 @@ span {
     margin: 0 auto;
     overflow: hidden;
     background: rgb(248, 248, 248);
-    padding: 310px 425px;
+}
+
+.section_decorating {
+    max-width: 1070px;
+    min-height: 1544px;
+    margin: 0 auto;
+    background: rgb(248, 248, 248);
 }
 
 img {
     max-width: 100%;
+    margin-bottom: 40px;
+    margin-left: 10px;
 }
 
 .decoration-subtitle {
+    padding-top: 60px;
     padding-bottom: 40px;
 }
 
-.decoration-subtitle,
-.material-subtitle {
+.decoration-subtitle {
     font-family: 'Proxima Nova';
     font-weight: 600;
     font-size: 40px;
@@ -104,15 +112,22 @@ img {
 .types p {
     padding-bottom: 20px;
 }
+.decorating,
+.site,
+.types,
+.choice{
+    margin-left: 10px;
+}
 
 .decorating,
 .types,
 .choice,
-.material p {
+p {
     font-family: 'Proxima Nova';
     font-weight: 400;
     font-size: 16px;
     line-height: 187%;
+    padding-bottom: 30px;
 }
 
 .site p {
@@ -128,13 +143,17 @@ img {
 
 .content {
     max-width: 1920px;
-    padding-left: 315px;
-    padding-right: 315px;
     margin: 0 auto;
     background-color: rgb(248, 248, 248);
     text-align: center;
     margin-bottom: 70px;
     margin-top: 70px;
+}
+
+.content-cards {
+    max-width: 1290px;
+    min-height: 572px;
+    margin:0 auto;
 }
 
 .items {
@@ -144,6 +163,7 @@ img {
     text-align: center;
     vertical-align: top;
     padding-right: 30px;
+    padding-bottom: 10px;
 }
 
 .item_title {
@@ -161,17 +181,33 @@ img {
     padding-top: 20px;
     padding-bottom: 20px;
 }
+.main_text{
+    font-family: "Proxima Nova";
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 34px;
+    text-align: center;
+    color: rgb(43, 41, 41);
+}
 
 .follow {
-    padding: 100px 300px;
     max-width: 1920px;
+    min-height: 754px;
     margin: 0 auto;
     background-color: rgba(30, 40, 50, 0.05);
     text-align: center;
+    padding-bottom: 325px;
+}
+
+.follow-items {
+    max-width: 1320px;
+    min-height: 319px;
+    margin: 0 auto;
 }
 
 .title {
-    margin-bottom: 60px;
+    padding-top: 100px;
+    padding-bottom: 60px;
     text-align: center;
     color: #000;
     font-size: 50px;
@@ -182,7 +218,7 @@ img {
 .card {
     text-align: center;
     display: inline-block;
-    padding-right: 12px;
+    padding-right: 24px;
     padding-bottom: 10px;
 }
 
