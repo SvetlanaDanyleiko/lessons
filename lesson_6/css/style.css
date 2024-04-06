@@ -210,18 +210,26 @@ body {
 .figma {
     color: #2b2929;
     max-width: 1920px;
+    min-height: 1544px;
     margin: 0 auto;
     overflow: hidden;
     background: rgb(248, 248, 248);
-    padding: 310px 425px;
+}
+.section_decorating {
+    max-width: 1070px;
+    min-height: 1544px;
+    margin: 0 auto;
+    background: rgb(248, 248, 248);
 }
 
 img {
     max-width: 100%;
+    margin-bottom: 40px;
 }
 
 .decoration-subtitle {
-    padding-bottom: 40px;
+    margin-bottom: 40px;
+    padding-top:80px;
 }
 
 .decoration-subtitle {
@@ -231,8 +239,19 @@ img {
     line-height: 120%;
 }
 
-.site {
-    padding-top: 20px;
+.decorating
+img{
+    margin-bottom:40px;
+}
+.site
+p{
+    margin-bottom:30px;
+}
+.divan_item{
+    margin-bottom: 20px;
+}
+.divan_item:last-child{
+    margin-bottom: 40px;
 }
 
 .types {
@@ -244,14 +263,6 @@ img {
     margin-bottom: 20px;
     padding-left: 47px;
     font-family: 'Proxima Nova';
-}
-
-.divan_item:first-child {
-    margin-top: 30px;
-}
-
-.divan_item:last-child {
-    margin-bottom: 40px;
 }
 
 .decorating,
@@ -269,169 +280,145 @@ img {
     font-size: 20px;
     line-height: 140%;
 }
+.choice{
+    margin-bottom:40px;
+}
 
+.big-conteiner {
+    min-height: 100%;
+    overflow: hidden;
+    max-width: 1440px;
+    margin: 0 auto;
+}
 .container {
     background-image: url(../img/fon_new.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    max-width: 1440px;
+    margin-bottom: 20px;
+}
+.conteiner_textimg{
+    max-width: 1280px;
     min-height: 530px;
-    margin: 0 auto;
     padding-top: 105px;
-    padding-left: 80px;
-    padding-bottom: 177px;
+    padding-bottom: 105px;
+    margin: 0 auto;
+}
+.main_container{
+    max-width: 600px;
+    min-height: 288px;
+    margin-right:133px ;
 }
 
 .container_1 {
-    max-width: 600px;
-    min-height: 96px;
-    padding-bottom: 29px;
+    margin-bottom: 24px;
     color: rgb(255, 255, 255);
     font-family: "Quicksand";
     font-size: 40px;
     font-weight: 700;
     line-height: 48px;
-    margin: 0%;
-    text-align: center;
     display: inline-block;
 }
 
 .container_2 {
-    max-width: 620px;
-    min-height: 128px;
     color: rgb(255, 255, 255);
     font-family: "Quicksand";
     font-size: 20px;
     font-weight: 500;
     line-height: 32px;
-    padding-left: 40px;
 }
 
 .button {
-    max-width: 233px;
-    min-height: 48px;
-    border: 8px solid rgb(255, 255, 255);
+    max-width: 251px;
+    max-height: 48px;
+    border: 2px solid rgb(255, 255, 255);
     border-radius: 8px;
-    background: rgb(255, 255, 255);
     margin-top: 24px;
-    margin-left: 40px;
-    padding: 11.5px 20px 11.5px 20px;
+    background: rgb(255, 255, 255);  
+}
+.button
+a{
+    padding: 11.5px 20px 11.5px 42px;
 }
 
 .container_img {
     float: right;
-    margin-top: -80px;
-    margin-right: 50px;
+    margin-top: -105px;
 }
 
 .circle {
-    margin: -475px 840px 20px 560px;
-    float: left;
+   margin: -475px 840px 0 560px;
+   float: left;
+}
+
+.wrapper{
+    min-height: 100%;
+    overflow: hidden;
+    color: rgb(0, 0, 0);
+    font-family: "Roboto", sans-serif;
 }
 
 .page_box {
     max-width: 1920px;
     width: 100%;
-    min-width:847px;
     margin: 0 auto;
     background-color: rgba(30, 40, 50, 0.05);
+    background:
+            url("../img/Frame_\(3\).png")0 95%/auto no-repeat,
+            url("../img/Frame_\(2\).png") 100% 90% / auto no-repeat rgba(30, 40, 50, 0.05);
 }
 
 .pages_text {
     display: inline-block;
     max-width: 1226px;
     width: 100%;
-    margin-right: 300px;
-    margin-left: 394px;
+    min-height:562px;
+    margin-left: 300px;
     margin-top: 225px;
     vertical-align: middle;
 }
-
-.page-title {
+.page_conteiner{
+    max-width: 686px;
+    min-height:364px;
+    width: 100%;
     color: rgb(0, 0, 0);
     font-family: "Roboto";
+    line-height: 55px;
+}
+.page-title {
     font-size: 74px;
     font-weight: 300px;
     line-height: 55px;
-    padding-bottom: 52px;
+   margin-bottom: 52px;
+   text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .page__longtext {
-    color: rgb(0, 0, 0);
-    font-family: "Roboto";
     font-size: 30px;
     font-weight: 400px;
-    line-height: 55px;
     text-transform: capitalize;
-    max-width: 682px;
-}
-
-.page_button {
-    max-width: 223px;
-    background-color: rgb(30, 40, 50);
-    border: 1px solid rgb(30, 40, 50);
-    padding: 19px 26px 19px 54px;
-    margin-top: 66px;
-}
-
-.pagebutton_text {
-    color: rgb(255, 255, 255);
-    font-family: "Roboto";
-    font-size: 29px;
-    font-weight: 400;
-    line-height: 34px;
-    text-align: left;
-    text-transform: capitalize;
+    display: inline-block;
+    margin-bottom: 66px;
 }
 
 .page_img {
     max-width: 442px;
-    width: 100%;
-    height: 542px;
+    min-height: 542px;
     background-image: url(../img/Rectangle_124.png);
     background-repeat: no-repeat;
-    display: inline-block;
-    vertical-align: middle;
-    margin-top: -440px;
-    margin-left: 784px;
+    margin-left:786px;
+    margin-top: -542px;
     margin-bottom: 60px;
-}
-
-.images img {
-    margin-left: -14px;
 }
 
 .page__second-img {
     max-width: 426px;
     width: 100%;
-    height: 542px;
+    min-height: 542px;
     padding-right: 20px;
-    display: inline-block;
-    vertical-align: middle;
 }
 
 .page__second-img {
     margin-left: -10px;
-}
-
-.page__third-img {
-    max-width: 195px;
-    width: 100%;
-    height: 251.91px;
-    display: inline-block;
-    vertical-align: middle;
-    margin-top: -365px;
-    margin-left: 542px;
-}
-
-.page__fourth-img {
-    width: 132.34px;
-    width: 100%;
-    height: 66.61px;
-    display: inline-block;
-    vertical-align: middle;
-    margin-left: -1910px;
-    margin-top: -208.52px;
 }
 
 .footer {
