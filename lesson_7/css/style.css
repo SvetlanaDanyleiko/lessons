@@ -7,7 +7,7 @@
 @import url("reset.css");
 
 body {
-    font-family: "Roboto" sans-serif;
+    font-family: 'Roboto' sans-serif;
 }
 
 .header {
@@ -64,7 +64,6 @@ body {
     border-radius: 8px;
     padding: 19px 26px;
     max-width: 400px;
-    min-height: px;
     background-color: rgb(204, 10, 10);
     font-family: "Roboto", sans-serif;
     font-weight: 700;
@@ -155,10 +154,6 @@ body {
 
 .main_text p:not(:nth-child(2)) {
     margin-bottom: 30px;
-}
-
-.main_text:has(p) {
-    background-color: burlywood;
 }
 
 .main_text>* {
