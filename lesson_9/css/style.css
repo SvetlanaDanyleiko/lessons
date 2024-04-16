@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap');
+@import url("fonts.css");
+@import url("reset.css");
+
+body {
+    font-family: 'Quicksand' sans-serif;
+}
+
+
+.footer {
+    max-width: 100%;
+    background-color: rgb(12, 180, 7);
+    margin: 50px auto;
+    padding-top: 30px;
+    color: aliceblue;
+    text-align: center;
+    font-size: 30px;
+    text-transform: capitalize;
+}

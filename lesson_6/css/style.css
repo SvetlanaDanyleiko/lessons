@@ -6,7 +6,7 @@
 @import url("reset.css");
 
 body {
-    font-family: "Roboto" sans-serif;
+    font-family: 'Proxima Nova' sans-serif;
 }
 
 .header {
@@ -215,6 +215,7 @@ body {
     overflow: hidden;
     background: rgb(248, 248, 248);
 }
+
 .section_decorating {
     max-width: 1070px;
     min-height: 1544px;
@@ -229,7 +230,7 @@ img {
 
 .decoration-subtitle {
     margin-bottom: 40px;
-    padding-top:80px;
+    padding-top: 80px;
 }
 
 .decoration-subtitle {
@@ -239,18 +240,19 @@ img {
     line-height: 120%;
 }
 
-.decorating
-img{
-    margin-bottom:40px;
+.decorating img {
+    margin-bottom: 40px;
 }
-.site
-p{
-    margin-bottom:30px;
+
+.site p {
+    margin-bottom: 30px;
 }
-.divan_item{
+
+.divan_item {
     margin-bottom: 20px;
 }
-.divan_item:last-child{
+
+.divan_item:last-child {
     margin-bottom: 40px;
 }
 
@@ -280,8 +282,9 @@ p{
     font-size: 20px;
     line-height: 140%;
 }
-.choice{
-    margin-bottom:40px;
+
+.choice {
+    margin-bottom: 40px;
 }
 
 .big-conteiner {
@@ -290,23 +293,26 @@ p{
     width: 100%;
     margin: 0 auto;
 }
+
 .container {
     background-image: url(../img/fon_new.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     margin-bottom: 20px;
 }
-.conteiner_textimg{
+
+.conteiner_textimg {
     max-width: 1280px;
     min-height: 530px;
     padding-top: 105px;
     padding-bottom: 105px;
     margin: 0 auto;
 }
-.main_container{
+
+.main_container {
     max-width: 600px;
     min-height: 288px;
-    margin-right:133px ;
+    margin-right: 133px;
 }
 
 .container_1 {
@@ -333,10 +339,10 @@ p{
     border: 2px solid rgb(255, 255, 255);
     border-radius: 8px;
     margin-top: 24px;
-    background: rgb(255, 255, 255);  
+    background: rgb(255, 255, 255);
 }
-.button
-a{
+
+.button a {
     padding: 11.5px 20px 11.5px 42px;
 }
 
@@ -346,8 +352,8 @@ a{
 }
 
 .circle {
-   margin: -475px 840px 0 560px;
-   float: left;
+    margin: -475px 840px 0 560px;
+    float: left;
 }
 
 
@@ -357,23 +363,24 @@ a{
     margin: 0 auto;
     background-color: rgba(30, 40, 50, 0.05);
     background:
-            url("../img/Frame_\(3\).png")0 95%/auto no-repeat,
-            url("../img/Frame_\(2\).png") 100% 90% / auto no-repeat rgba(30, 40, 50, 0.05);
+        url("../img/Frame_\(3\).png")0 95%/auto no-repeat,
+        url("../img/Frame_\(2\).png") 100% 90% / auto no-repeat rgba(30, 40, 50, 0.05);
 
 }
 
 .pages_text {
     max-width: 1226px;
     width: 100%;
-    min-height:562px;
+    min-height: 562px;
     margin-left: 300px;
     padding-top: 91px;
     display: inline-block;
     vertical-align: middle;
 }
-.page_conteiner{
+
+.page_conteiner {
     max-width: 686px;
-    min-height:364px;
+    min-height: 364px;
     width: 100%;
     color: rgb(0, 0, 0);
     font-family: "Roboto";
@@ -381,14 +388,15 @@ a{
     display: inline-block;
     vertical-align: middle;
 }
+
 .page-title {
     font-size: 74px;
     font-weight: 300px;
     line-height: 55px;
-   margin-bottom: 52px;
-   display: inline-block;
-   vertical-align: middle;
-   text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    margin-bottom: 52px;
+    display: inline-block;
+    vertical-align: middle;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .page__longtext {
@@ -401,17 +409,17 @@ a{
 }
 
 .page_img {
-   display: inline-block;
-   vertical-align: middle;
-   width: 100%;
-   border-radius: 160px 0;
+    display: inline-block;
+    vertical-align: middle;
+    width: 100%;
+    border-radius: 160px 0;
     max-width: 424px;
     min-height: 542px;
     border: 2px solid rgba(0, 0, 0, 0.25);
-    
+
 }
-.page_img
-img{
+
+.page_img img {
     margin-top: -20px;
     margin-left: -18px;
 }
