@@ -6,14 +6,18 @@
 @import url("fonts.css");
 @import url("reset.css");
 
+body {
+    font-family: 'Roboto' sans-serif;
+}
+
 .header {
-    width: 100%;
-    height: auto;
     background-color: papayawhip;
 }
 
 .header__transform {
-    vertical-align: middle;
+    max-width: 1400px;
+    margin: 0 auto;
+
 }
 
 .header__title {
@@ -40,10 +44,6 @@
 }
 
 .header__blocks {
-    margin: 50px 30px 30px 100px;
-}
-
-.header__blocks {
     width: 200px;
     height: 200px;
     border: 1px solid black;
@@ -56,6 +56,7 @@
     line-height: 20px;
     text-align: center;
     background-color: rgb(14, 237, 148);
+    margin: 50px 30px 30px 100px;
 }
 
 .header__block-one {
