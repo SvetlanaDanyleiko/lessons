@@ -357,7 +357,7 @@ body {
 
 
 
-.wrapper {
+.car {
     background-image: url(../img/pngtree-cartoon-forest-fire-disaster-burning-image_1109040.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -366,7 +366,7 @@ body {
     padding-left: 350px;
 }
 
-.car {
+.car__body {
     width: 1200px;
     height: 1000px;
     display: inline-block;
