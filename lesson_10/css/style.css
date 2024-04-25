@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap');
+@import url("fonts.css");
+@import url("reset.css");
+
+body {
+    font-family: 'Quicksand' sans-serif;
+    padding: 40px;
+}
+
+.wrapper {
+    min-height: 100%;
+    overflow: clip;
+}
+
+
+.blocks {
+    position: relative;
+    height: 300px;
+    background-color: burlywood;
+}
+
+.blocks__item:nth-child(1) {
+    background-color: rgb(209, 245, 147);
+    max-width: 100%;
+    min-height: 50px;
+    position: relative;
+
+}
+
+.blocks__item:nth-child(2) {
+    background-color: rgb(255, 127, 189);
+    max-width: 300px;
+    min-height: 50px;
+    position: relative;
+    left: 10px;
+    top: 70%;
+    z-index: 2;
+}
+
+.blocks__item:nth-child(3) {
+    background-color: rgb(53, 20, 240);
+    min-height: 50px;
+    position: sticky;
+    top: 30px;
+    width: 70%;
+}
+
+.blocks__item:nth-child(4) {
+    background-color: rgba(214, 201, 48, 0.469);
+    max-width: 100%;
+    min-height: 50px;
+    position: absolute;
+    left: 200px;
+    top: 10px
+}
+
+.blocks__item:nth-child(5) {
+    background-color: rgba(19, 230, 202, 0.469);
+    max-width: 100%;
+    min-height: 50px;
+    position: fixed;
+    left: 80px;
+    top: 100px
+}
+
+.footer {
+    max-width: 100%;
+    background-color: rgb(12, 180, 7);
+    margin: 50px auto;
+    padding-top: 30px;
+    color: aliceblue;
+    text-align: center;
+    font-size: 30px;
+    text-transform: capitalize;
+}
+
+.important {
+    background-color: darkorange;
+    position: sticky;
+    padding: 15px;
+    top: 0;
+    left: 0;
+    width: 100%;
+
+}
+
+.menu__list {
+    font-size: 0;
+}
+
+.menu__item {
+    font-size: 14px;
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+    padding: 10px;
+    background-color: bisque;
+}
+
+.menu__item:not(:last-child) {
+    margin-right: 20px;
+    margin-bottom: 50px;
+}
+
+.menu__link:hover {
+    text-decoration: underline;
+}
+
+.menu__item:hover .sub-menu {
+    display: block;
+}
+
+.sub-menu__link {
+    font-size: 12px;
+}
+
+.sub-menu__link:hover {
+    text-decoration: underline;
+}
+
+.sub-menu {
+    position: absolute;
+    left: 0;
+    top: 100%;
+    background-color: aquamarine;
+    padding: 10px;
+    z-index: 2;
+    width: 100%;
+    display: none;
+}
