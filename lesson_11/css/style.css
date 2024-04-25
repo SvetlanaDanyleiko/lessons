@@ -313,14 +313,14 @@ body {
     margin: 0 auto;
 }
 
-.card__body {
+.card__objekt {
     position: relative;
     width: 300px;
     perspective: 500px;
     margin: 0 auto;
 }
 
-.card__body img {
+.card__objekt img {
     width: 100%;
 }
 
@@ -366,7 +366,7 @@ body {
     padding-left: 350px;
 }
 
-.car__body {
+.car__firehouse {
     width: 1200px;
     height: 1000px;
     display: inline-block;
