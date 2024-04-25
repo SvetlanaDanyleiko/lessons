@@ -324,11 +324,7 @@ body {
     width: 100%;
 }
 
-.card__back {
-    position: absolute;
-    top: 0;
-    left: 0;
-}
+
 
 .card__front,
 .card__back {
@@ -347,12 +343,15 @@ body {
     left: 0;
 }
 
-.card__body:hover .card__front {
-    transform: rotateY(-180deg);
+
+
+
+.card__objekt:hover .card__back {
+    transform: rotateY(0deg);
 }
 
-.card__body:hover .card__back {
-    transform: rotateY(0deg);
+.card__objekt:hover .card__front {
+    transform: rotateY(-180deg);
 }
 
 
@@ -366,7 +365,7 @@ body {
     padding-left: 350px;
 }
 
-.car__firehouse {
+.car__body {
     width: 1200px;
     height: 1000px;
     display: inline-block;
