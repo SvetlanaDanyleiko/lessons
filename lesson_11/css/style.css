@@ -6,10 +6,6 @@
 @import url("fonts.css");
 @import url("reset.css");
 
-body {
-    font-family: 'Roboto' sans-serif;
-}
-
 .header {
     background-color: papayawhip;
 }
@@ -343,9 +339,6 @@ body {
     left: 0;
 }
 
-
-
-
 .card__objekt:hover .card__back {
     transform: rotateY(0deg);
 }
@@ -353,8 +346,6 @@ body {
 .card__objekt:hover .card__front {
     transform: rotateY(-180deg);
 }
-
-
 
 .car {
     background-image: url(../img/pngtree-cartoon-forest-fire-disaster-burning-image_1109040.jpeg);
