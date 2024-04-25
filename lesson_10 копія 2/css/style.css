@@ -626,3 +626,13 @@
     width: 190px;
     margin-bottom: -30px;
 }
+
+.footer-end {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 60px;
+    font-weight: 600;
+    color: #2207ef;
+    line-height: 50px;
+    text-align: center;
+    background-color: aquamarine;
+}
