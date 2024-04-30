@@ -1,0 +1,763 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap');
+@import url("fonts.css");
+@import url("reset.css");
+
+.header {
+    background-color: rgb(83, 235, 156);
+}
+
+.header__transform {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.header__title {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 60px;
+    font-weight: 600;
+    color: #2207ef;
+    line-height: 50px;
+    text-align: center;
+    background-color: rgb(240, 217, 10);
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+.header__subtitle {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+    font-weight: 600;
+    color: #1b075e;
+    line-height: 50px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+.header__blocks {
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    display: inline-block;
+    vertical-align: middle;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    color: #ef073d;
+    line-height: 20px;
+    text-align: center;
+    background-color: rgb(14, 133, 237);
+    margin: 50px 30px 30px 100px;
+}
+
+.header__block-one {
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+    display: inline-block;
+    vertical-align: middle;
+    background-color: burlywood;
+    border: 2px dashed darkred;
+
+}
+
+.header__blocks:hover .header__block-one {
+    background-color: #be8593;
+    width: 300px;
+}
+
+.header__blocks:hover .header__block-one {
+    transition-duration: 3s;
+}
+
+.header__block-one {
+    transition-duration: 1s;
+}
+
+.header__block-two {
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+    display: inline-block;
+    vertical-align: middle;
+    background-color: burlywood;
+    border: 2px dashed darkred;
+}
+
+.header__blocks:hover .header__block-two {
+    background-color: chocolate;
+    height: 100px;
+    border: 3px dashed green;
+}
+
+.header__block-two {
+    transition-property: all;
+    transition-duration: 2s, 4s, 1s;
+}
+
+.header__block-three {
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+    display: inline-block;
+    vertical-align: middle;
+    background-color: burlywood;
+    border: 2px dashed darkred;
+}
+
+.header__blocks:hover .header__block-three {
+    background-color: #67c310;
+    width: 150px;
+    transition-property: all;
+    transition-duration: 2s, 0.5s;
+    transition-delay: 1s;
+}
+
+.header__block-three {
+    transition-duration: 1s;
+}
+
+.header__block-four {
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+    display: inline-block;
+    vertical-align: middle;
+    transform: scale(1);
+    background-color: burlywood;
+    border: 2px dashed darkred;
+}
+
+.header__blocks:hover .header__block-four {
+    background-color: #c0c310;
+    height: 100px;
+    transition-property: all;
+    transition-duration: 2s, 0.5s;
+    transition-delay: 3s, 1s;
+    transition-timing-function: ease;
+}
+
+.header__block-four {
+    transition-duration: 5s;
+}
+
+.header__block-five {
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+    display: inline-block;
+    vertical-align: middle;
+    background-color: burlywood;
+    border: 2px dashed darkred;
+}
+
+.header__blocks:hover .header__block-five {
+    background-color: #c0c310;
+    height: 100px;
+    width: 300px;
+    transition: 4s linear 1s;
+}
+
+.header__block-five {
+    transition-duration: 3s;
+}
+
+.header__block-six {
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+    display: inline-block;
+    vertical-align: middle;
+    background-color: burlywood;
+    border: 2px dashed darkred;
+}
+
+.header__blocks:hover .header__block-six {
+    background-color: #c3102e;
+    border: 1px dotted green;
+    height: 100px;
+    width: 300px;
+    transition:
+        height 1s linear 1s,
+        wight 0.5s linear 0.2s,
+        border 0.5s linear 0.2s,
+        background-color 1s ease-in-out 0.5s;
+}
+
+.header__block-six {
+    transition-duration: 3s;
+}
+
+.some-image {
+    display: inline-block;
+    position: relative;
+    transition: transform 0.8s;
+    margin-bottom: 30px;
+}
+
+.some-image::before {
+    content: "";
+    width: 500px;
+    height: 500px;
+    border-radius: 30%;
+    background-color: #280ebd;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.5;
+    transition: opacity 0.8s;
+    z-index: 2;
+}
+
+.some-image:hover::before {
+    opacity: 0;
+}
+
+.some-image__item {
+    width: 500px;
+    height: 500px;
+    border-radius: 30%;
+    transition: transform 0.8s;
+}
+
+.some-image:hover {
+    transform: scale(1.1);
+}
+
+.some-blockone {
+    display: inline-block;
+    vertical-align: middle;
+    overflow: hidden;
+}
+
+.some-imageone {
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    transition: transform 0.8s;
+}
+
+.some-imageone::before {
+    content: "";
+    width: 500px;
+    height: 500px;
+    border-radius: 10%;
+    background-color: #bd0e80;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.5;
+    transition: opacity 0.8s;
+    z-index: 2;
+}
+
+.some-imageone:hover::before {
+    opacity: 0;
+}
+
+
+.some-imageone__item {
+    width: 500px;
+    height: 500px;
+    border-radius: 10%;
+    transition: transform 0.8s;
+    margin-bottom: 30px;
+}
+
+.some-imageone:hover {
+    transform: scale(1.1);
+}
+
+.car {
+    background-image: url(../img/phon_1.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    padding-top: 800px;
+    padding-left: 350px;
+    animation-name: phon;
+    animation-duration: 40s;
+    animation-timing-function: linear;
+    animation-iteration-count: 3;
+
+}
+
+.car__body {
+    width: 1200px;
+    height: 1000px;
+    display: inline-block;
+    animation: car 5s infinite alternate;
+}
+
+.car__car-cab {
+    width: 450px;
+    height: 480px;
+    display: inline-block;
+    vertical-align: middle;
+    background-color: crimson;
+    color: transparent;
+    border-radius: 10% 10% 0% 0%;
+    border: 3px dashed rgb(35, 28, 28);
+    padding-top: 50px;
+    padding-left: 60px;
+    margin-right: -5px;
+    position: relative;
+}
+
+.car__windows {
+    width: 300px;
+    height: 150px;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 30px 50px 10px 5px;
+
+}
+
+.car__window-first {
+    width: 130px;
+    height: 150px;
+    background-image: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(41, 101, 172, 0.7175463935574229) 100%);
+    border-radius: 10px;
+    outline: 5px dashed black;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+    margin-left: 20px;
+    animation-name: object1;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+
+}
+
+.car__window-second {
+    width: 136px;
+    height: 150px;
+    background-image: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(41, 101, 172, 0.7175463935574229) 100%);
+    border-radius: 10px;
+    outline: 5px dashed black;
+    display: inline-block;
+    vertical-align: middle;
+    animation-name: object2;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+.car__tube-first img {
+    width: 280px;
+    height: 200px;
+    margin-left: 25px;
+    margin-bottom: 40px;
+}
+
+.car__tube-second {
+    width: 40px;
+    height: 80px;
+    background-color: black;
+    position: absolute;
+    top: -80px;
+    left: 350px;
+}
+
+.car__tube-third {
+    width: 200px;
+    height: 250px;
+    border-radius: 10% 0% 0 10%;
+    background-color: crimson;
+    border: 3px dashed rgb(28, 21, 21);
+    position: absolute;
+    bottom: 0px;
+    left: -200px;
+}
+
+.car__tube-phara {
+    margin-top: 10px;
+    width: 50px;
+    animation: phara 5s infinite alternate;
+    border-radius: 192px 91px 112px 87px;
+    border: 49px groove hsl(50, 100%, 66%);
+    transform: rotate(-45deg);
+    opacity: 0.8;
+}
+
+.car__car-trunk {
+    width: 650px;
+    height: 390px;
+    display: inline-block;
+    vertical-align: middle;
+    border-radius: 0% 10% 10% 0%;
+    border: 3px dashed rgb(21, 16, 16);
+    background-color: crimson;
+    margin-top: 90px;
+    background-image: url(../img/fire-hose-icon-flat-illustration-of-fire-hose-vector-icon-for-web-design_98402-29632.svg);
+    background-repeat: no-repeat;
+    background-size: 300px 300px;
+    background-position: 130px 100px;
+    box-shadow: -5px -4px 5px 10px rgb(47, 44, 2);
+}
+
+.car__car-ladder {
+    width: 530px;
+    height: 90px;
+    display: inline-block;
+    border-radius: 10% 10% 10% 10%;
+    background-color: rgb(201, 25, 25);
+    border-top: 8px solid rgb(24, 21, 21);
+    border-bottom: 8px solid rgb(24, 21, 21);
+    margin-top: 40px;
+    margin-left: 60px;
+    position: relative;
+}
+
+.car__car-step:nth-child(1) {
+    width: 20px;
+    height: 80px;
+    background-color: rgb(1, 19, 16);
+    position: absolute;
+    bottom: 0px;
+    right: 60px;
+}
+
+.car__car-step:nth-child(2) {
+    width: 20px;
+    height: 80px;
+    background-color: rgb(1, 19, 16);
+    position: absolute;
+    bottom: 0px;
+    right: 140px;
+}
+
+.car__car-step:nth-child(3) {
+    width: 20px;
+    height: 80px;
+    background-color: rgb(1, 19, 16);
+    position: absolute;
+    bottom: 0px;
+    right: 220px;
+}
+
+.car__car-step:nth-child(4) {
+    width: 20px;
+    height: 80px;
+    background-color: rgb(1, 19, 16);
+    position: absolute;
+    bottom: 0px;
+    right: 300px;
+}
+
+.car__car-step:nth-child(5) {
+    width: 20px;
+    height: 80px;
+    background-color: rgb(1, 19, 16);
+    position: absolute;
+    bottom: 0px;
+    right: 380px;
+}
+
+.car__car-step:nth-child(6) {
+    width: 20px;
+    height: 80px;
+    background-color: rgb(1, 19, 16);
+    position: absolute;
+    bottom: 0px;
+    right: 460px;
+}
+
+.car__car-grenadeblock {
+    width: 100%;
+    display: inline-block;
+}
+
+.car__car-grenadedelta {
+    width: 0;
+    height: 0;
+    display: inline-block;
+    vertical-align: middle;
+    border-left: solid 150px transparent;
+    border-right: solid 150px transparent;
+    border-top: solid 150px rgb(149, 14, 14);
+    transform: rotate(15deg);
+    margin-top: -1980px;
+    margin-left: 550px;
+
+}
+
+.car__car-grenadeblock .car__car-ladder {
+    width: 900px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: -2210px;
+    margin-left: 250px;
+    transform: rotate(15deg);
+    background-color: rgb(179, 175, 175);
+}
+
+.car__car-step:nth-child(7) {
+    width: 20px;
+    height: 80px;
+    background-color: rgb(1, 19, 16);
+    position: absolute;
+    bottom: 0px;
+    right: 540px;
+}
+
+.car__car-step:nth-child(8) {
+    width: 20px;
+    height: 80px;
+    background-color: rgb(1, 19, 16);
+    position: absolute;
+    bottom: 0px;
+    right: 620px;
+}
+
+.car__car-step:nth-child(9) {
+    width: 20px;
+    height: 80px;
+    background-color: rgb(1, 19, 16);
+    position: absolute;
+    bottom: 0px;
+    right: 700px;
+}
+
+.car__car-step:nth-child(10) {
+    width: 20px;
+    height: 80px;
+    background-color: rgb(1, 19, 16);
+    position: absolute;
+    bottom: 0px;
+    right: 790px;
+}
+
+.car__car-wheel {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(156, 152, 152);
+    border-radius: 50%;
+    border: 5px dashed rgb(11, 0, 0);
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: -930px;
+    margin-bottom: 60px;
+    position: relative;
+    z-index: 2;
+    animation-name: wheels;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+
+}
+
+.car__car-wheel:first-child {
+    margin-left: -25px;
+    margin-right: 580px;
+    margin-bottom: 60px;
+    position: relative;
+    z-index: 2;
+    animation-name: wheels;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+.car__car-wheel img {
+    width: 190px;
+    margin-bottom: -30px;
+}
+
+@keyframes wheels {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(-360deg);
+    }
+}
+
+@keyframes phon {
+    0% {
+        background-image: url(../img/phon_1.jpeg);
+        transform: translateX(0%);
+    }
+
+    50% {
+        background-image: url(../img/phone_2.jpeg);
+        transform: translateX(0%);
+    }
+
+    100% {
+        background-image: url(../img/phone_3.webp);
+        transform: translateX(0%);
+    }
+}
+
+@keyframes object1 {
+    from {
+        background-size: cover;
+    }
+
+    to {
+        background-image: url(../img/smile_1.jpeg);
+        background-size: cover;
+    }
+
+}
+
+@keyframes object2 {
+    from {
+        background-image: url(../img/smile.jpeg);
+        background-size: cover;
+    }
+
+    to {
+        background-size: cover;
+    }
+
+}
+
+.fire__manimg {
+    position: absolute;
+    top: 450px;
+    left: 300px;
+
+}
+
+.fire__man img {
+    animation: man 3s infinite alternate;
+}
+
+
+.fire__water img {
+    position: absolute;
+    top: 540px;
+    left: 110px;
+    animation: water 3s infinite alternate;
+}
+
+@keyframes man {
+    from {
+        transform: translateY(-5px);
+    }
+
+    to {
+        transform: translateY(5px);
+        rotate: 10deg;
+    }
+}
+
+@keyframes water {
+    from {
+        transform: translateY(-10px);
+    }
+
+    to {
+        transform: translateY(10px);
+        rotate: -10deg;
+    }
+
+}
+
+.fire__spark1 {
+    position: absolute;
+    top: 340px;
+    left: 110px;
+    animation: spark1 5s infinite alternate;
+}
+
+.fire__spark2 {
+    position: absolute;
+    top: 240px;
+    left: 410px;
+    animation: spark2 5s infinite alternate;
+}
+
+.fire__spark3 {
+    position: absolute;
+    top: 340px;
+    left: 810px;
+    animation: spark3 5s infinite alternate;
+}
+
+@keyframes spark1 {
+    from {
+        width: 10px;
+        transform: translateY(-5px);
+    }
+
+    to {
+        width: 300px;
+        rotate: 45deg;
+        transform: translateX(150px);
+    }
+
+}
+
+@keyframes spark2 {
+    from {
+        rotate: 0deg;
+        transform: scale(0.5, 0.5);
+    }
+
+    to {
+
+        rotate: 180deg;
+        transform: scale(1, 1);
+    }
+
+}
+
+@keyframes spark3 {
+    from {
+        rotate: 0deg;
+        transform: scale(0.2, 0.2);
+        transform: translateY(0px);
+    }
+
+    to {
+        rotate: 360deg;
+        transform: scale(1.5, 1.5);
+        transform: translateY(150px);
+    }
+
+}
+
+@keyframes car {
+    0% {
+        rotate: 0deg;
+    }
+
+    50% {
+        rotate: 1deg;
+
+    }
+
+    100% {
+        rotate: 0deg;
+    }
+}
+
+@keyframes phara {
+    0% {
+        box-shadow: none;
+    }
+
+    100% {
+        box-shadow: -90px -140px 50px 20px yellow;
+    }
+}
+
+.footer-end {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 100%;
+    font-size: 60px;
+    font-weight: 600;
+    color: #2207ef;
+    line-height: 50px;
+    background-color: #bce40b;
+    text-align: center;
+}
