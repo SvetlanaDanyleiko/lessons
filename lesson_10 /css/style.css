@@ -242,7 +242,7 @@ main {
 
 .main-conteiner__name {
     color: rgb(43, 41, 41);
-    font-family: Proxima Nova;
+    font-family: 'Proxima Nova';
     font-size: 20px;
     font-weight: 600;
     line-height: 28px;
@@ -261,13 +261,13 @@ main {
 .main-conteiner__number {
     position: absolute;
     left: 200px;
-    top: 20px
+    top: 20px;
 }
 
 .main-conteiner__card p {
     display: inline-block;
     color: rgb(177, 177, 177);
-    font-family: Proxima Nova;
+    font-family: 'Proxima Nova';
     font-size: 20px;
     font-weight: 600;
     line-height: 28px;
